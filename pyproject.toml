@@ -1,0 +1,13 @@
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "ssghost", email = "ssprof0@gmail.com"},
+]
+dependencies = [
+    "pandas>=2.0.3",
+]
+requires-python = ">=3.8"
+license = {text = "MIT"}

@@ -8,6 +8,8 @@ authors = [
 ]
 dependencies = [
     "pandas>=2.0.3",
+    "pykalman>=0.9.5",
+    "scipy>=1.9.3",
 ]
 requires-python = ">=3.8"
 license = {text = "MIT"}

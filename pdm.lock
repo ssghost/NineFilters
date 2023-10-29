@@ -41,6 +41,15 @@ version = "2023.3.post1"
 summary = "World timezone definitions, modern and historical"
 
 [[package]]
+name = "pywavelets"
+version = "1.4.1"
+requires_python = ">=3.8"
+summary = "PyWavelets, wavelet transform module"
+dependencies = [
+    "numpy>=1.17.3",
+]
+
+[[package]]
 name = "scipy"
 version = "1.9.3"
 requires_python = ">=3.8"
@@ -65,7 +74,7 @@ summary = "Provider of IANA time zone data"
 lock_version = "4.2"
 cross_platform = true
 groups = ["default"]
-content_hash = "sha256:bbab1d85549d8d60bb9c4c7315b94fdd01a171c4b6fb38603773d52111434d52"
+content_hash = "sha256:cf4c6107b1853136f8b798461b8fd72d6ab720f74b19df2be711d815222d7df5"
 
 [metadata.files]
 "numpy 1.24.4" = [
@@ -135,6 +144,33 @@ content_hash = "sha256:bbab1d85549d8d60bb9c4c7315b94fdd01a171c4b6fb38603773d5211
 "pytz 2023.3.post1" = [
     {url = "https://files.pythonhosted.org/packages/32/4d/aaf7eff5deb402fd9a24a1449a8119f00d74ae9c2efa79f8ef9994261fc2/pytz-2023.3.post1-py2.py3-none-any.whl", hash = "sha256:ce42d816b81b68506614c11e8937d3aa9e41007ceb50bfdcb0749b921bf646c7"},
     {url = "https://files.pythonhosted.org/packages/69/4f/7bf883f12ad496ecc9514cd9e267b29a68b3e9629661a2bbc24f80eff168/pytz-2023.3.post1.tar.gz", hash = "sha256:7b4fddbeb94a1eba4b557da24f19fdf9db575192544270a9101d8509f9f43d7b"},
+]
+"pywavelets 1.4.1" = [
+    {url = "https://files.pythonhosted.org/packages/02/15/89951f559601fb6755f2231558c33c1b9cbba9e8526906cbc258e27eb53d/PyWavelets-1.4.1-cp39-cp39-win_amd64.whl", hash = "sha256:88aa5449e109d8f5e7f0adef85f7f73b1ab086102865be64421a3a3d02d277f4"},
+    {url = "https://files.pythonhosted.org/packages/07/fe/90ab3b98dfeb2177e1b8c8ccdd4e777e35dfe0aa98723308bd8f1a97fd47/PyWavelets-1.4.1-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:754fa5085768227c4f4a26c1e0c78bc509a266d9ebd0eb69a278be7e3ece943c"},
+    {url = "https://files.pythonhosted.org/packages/0d/72/db0ef5ca311627f86de89a7af6055301c67490f4160e725cdbd32eea7700/PyWavelets-1.4.1-cp39-cp39-win32.whl", hash = "sha256:47cac4fa25bed76a45bc781a293c26ac63e8eaae9eb8f9be961758d22b58649c"},
+    {url = "https://files.pythonhosted.org/packages/13/e4/86bb218c7926e1da7a52e0696cab120a17c995933f08d8228d9aa83b44c5/PyWavelets-1.4.1-cp311-cp311-macosx_10_13_x86_64.whl", hash = "sha256:64c6bac6204327321db30b775060fbe8e8642316e6bff17f06b9f34936f88875"},
+    {url = "https://files.pythonhosted.org/packages/1d/5e/97ff80a20fb22f723f0c3f6f5f407b12579a560abf7c3a8087d052993dd9/PyWavelets-1.4.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:ad987748f60418d5f4138db89d82ba0cb49b086e0cbb8fd5c3ed4a814cfb705e"},
+    {url = "https://files.pythonhosted.org/packages/1d/a1/0f9356779440aaaa35ff82479c40a094419f19ab94a3d5f49e090398959b/PyWavelets-1.4.1-cp311-cp311-win32.whl", hash = "sha256:7231461d7a8eb3bdc7aa2d97d9f67ea5a9f8902522818e7e2ead9c2b3408eeb1"},
+    {url = "https://files.pythonhosted.org/packages/2f/52/080267790e23a5186185f2c26d7b774cee754387d1bcb116c7a45f3546f6/PyWavelets-1.4.1-cp38-cp38-macosx_10_13_x86_64.whl", hash = "sha256:ab7da0a17822cd2f6545626946d3b82d1a8e106afc4b50e3387719ba01c7b966"},
+    {url = "https://files.pythonhosted.org/packages/34/c0/a121306b618af45ff7d769e1bd45ed3d6c798dc7f0094e0b56735388d96e/PyWavelets-1.4.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:030670a213ee8fefa56f6387b0c8e7d970c7f7ad6850dc048bd7c89364771b9b"},
+    {url = "https://files.pythonhosted.org/packages/35/12/f1a4f72b5d71497e4200e71e253cc747077d8570b55693faaa7b81fb6dff/PyWavelets-1.4.1-cp310-cp310-win_amd64.whl", hash = "sha256:91d3d393cffa634f0e550d88c0e3f217c96cfb9e32781f2960876f1808d9b45b"},
+    {url = "https://files.pythonhosted.org/packages/3e/fc/651024e8b6e69bef6def2cbe27d520309f4ffc56b8d4885ab7046e1edc6c/PyWavelets-1.4.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:da7b9c006171be1f9ddb12cc6e0d3d703b95f7f43cb5e2c6f5f15d3233fcf202"},
+    {url = "https://files.pythonhosted.org/packages/50/92/a78bf0c3d84afd9b17727cce122c3fdb3860a27bd67b32448c7e64301e7b/PyWavelets-1.4.1-cp310-cp310-macosx_10_13_x86_64.whl", hash = "sha256:d854411eb5ee9cb4bc5d0e66e3634aeb8f594210f6a1bed96dbed57ec70f181c"},
+    {url = "https://files.pythonhosted.org/packages/51/af/53bcfea50c24cedb202b0c072193af94a1a611b26ab360082791e455b43f/PyWavelets-1.4.1-cp310-cp310-win32.whl", hash = "sha256:67a0d28a08909f21400cb09ff62ba94c064882ffd9e3a6b27880a111211d59bd"},
+    {url = "https://files.pythonhosted.org/packages/5a/98/4549479a32972bdfdd5e75e168219e97f4dfaee535a8308efef7291e8398/PyWavelets-1.4.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:71ab30f51ee4470741bb55fc6b197b4a2b612232e30f6ac069106f0156342356"},
+    {url = "https://files.pythonhosted.org/packages/6c/92/7e900e574575358a5af6ad9f8378d889b1a21e2ba835bae9d0eb7efd505b/PyWavelets-1.4.1-cp38-cp38-win32.whl", hash = "sha256:de7cd61a88a982edfec01ea755b0740e94766e00a1ceceeafef3ed4c85c605cd"},
+    {url = "https://files.pythonhosted.org/packages/6e/d4/008dceeb95fafcf141f39393bdfc10921d0b62a325c2794ac533195a1eb3/PyWavelets-1.4.1.tar.gz", hash = "sha256:6437af3ddf083118c26d8f97ab43b0724b956c9f958e9ea788659f6a2834ba93"},
+    {url = "https://files.pythonhosted.org/packages/73/8c/6d50b8e2ee4d12373a63791ad742df1e30ddd5f0f8d1c000c5b6b3afb2c9/PyWavelets-1.4.1-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:578af438a02a86b70f1975b546f68aaaf38f28fb082a61ceb799816049ed18aa"},
+    {url = "https://files.pythonhosted.org/packages/88/4b/b2b2a6f51e47c091c221bfde976a01a7e5f20e7e5e6341b2b9c4db73d2ed/PyWavelets-1.4.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:058b46434eac4c04dd89aeef6fa39e4b6496a951d78c500b6641fd5b2cc2f9f4"},
+    {url = "https://files.pythonhosted.org/packages/94/73/4df43d2e18e68c7ea88177c1fa14a25b5813a51b4953dc94c21f2de039d5/PyWavelets-1.4.1-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:3f19327f2129fb7977bc59b966b4974dfd72879c093e44a7287500a7032695de"},
+    {url = "https://files.pythonhosted.org/packages/9f/67/33b37d53da9d225301e30894db5083569aa670b446253b3906fc0e96119e/PyWavelets-1.4.1-cp39-cp39-macosx_10_13_x86_64.whl", hash = "sha256:23bafd60350b2b868076d976bdd92f950b3944f119b4754b1d7ff22b7acbf6c6"},
+    {url = "https://files.pythonhosted.org/packages/a0/32/eeeaa4de640a84e2cc35c25aea289367059abce0cac84a9987b139a2a25f/PyWavelets-1.4.1-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:d0e56cd7a53aed3cceca91a04d62feb3a0aca6725b1912d29546c26f6ea90426"},
+    {url = "https://files.pythonhosted.org/packages/a9/8f/f80ff31e73385b886c35fb9fb1377849f9c43a3c1195ed8dc8ed8dc1bd88/PyWavelets-1.4.1-cp38-cp38-win_amd64.whl", hash = "sha256:7ab8d9db0fe549ab2ee0bea61f614e658dd2df419d5b75fba47baa761e95f8f2"},
+    {url = "https://files.pythonhosted.org/packages/cd/c1/132756d0033b37f4013299ac048bf34d5094673712984edb9e90e8d8a179/PyWavelets-1.4.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:9cb5ca8d11d3f98e89e65796a2125be98424d22e5ada360a0dbabff659fca0fc"},
+    {url = "https://files.pythonhosted.org/packages/de/a1/cd8a30e061f858f219364554b19d4318276c677a51d956c55fb0b134e8b2/PyWavelets-1.4.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:875d4d620eee655346e3589a16a73790cf9f8917abba062234439b594e706784"},
+    {url = "https://files.pythonhosted.org/packages/e4/13/9a1632347677e1be27900d9dc922f19bc01440eb8b0c663cea63b35275fc/PyWavelets-1.4.1-cp311-cp311-win_amd64.whl", hash = "sha256:daf0aa79842b571308d7c31a9c43bc99a30b6328e6aea3f50388cd8f69ba7dbc"},
+    {url = "https://files.pythonhosted.org/packages/f3/66/2bbcad043383d7be3bca2155972adba1d06be3bc5536afbfa22f1cd99688/PyWavelets-1.4.1-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:231b0e0b1cdc1112f4af3c24eea7bf181c418d37922a67670e9bf6cfa2d544d4"},
 ]
 "scipy 1.9.3" = [
     {url = "https://files.pythonhosted.org/packages/0a/2e/44795c6398e24e45fa0bb61c3e98de1cfea567b1b51efd3751e2f7ff9720/scipy-1.9.3.tar.gz", hash = "sha256:fbc5c05c85c1a02be77b1ff591087c83bc44579c6d2bd9fb798bb64ea5e1a027"},
